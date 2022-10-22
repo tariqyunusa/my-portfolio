@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+    font-family: 'Bebas Neue';
+    scroll-behavior: smooth;
+    scrollbar-gutter: none;
+}
+.no-scroll::-webkit-scrollbar{
+    display: none;
+}
+.homepage{
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.left-side .lhs{
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 35px;
+    color:  rgba(54, 69, 79, 1);
+    font-size: 24px;
+}
+.center-page{
+    position: absolute;
+    left: 43vw;
+    padding-top: 35px;
+    top: 2vh;
+    color: rgba(54, 69, 79, 1);
+    opacity: 52%;
+}
+.right-side{
+    position: absolute;
+    margin-right: 10px;
+    left: 85vw;
+    padding-top: 35px;
+
+}
+button{
+    position: absolute;
+    width: 124px;
+    height: 40px;
+    border: 2px solid #36454F;
+    border-radius: 7px;
+    color:#36454F ;
+    cursor: pointer;
+    background-color: transparent;
+}
+button:hover{
+    border: 1px solid #36454F;
+    background: orangered;
+    transition: 1s;
+    color: #36454F;
+}
+
+.info-center{
+  position: absolute;
+  top: 311px;
+  left: 118px;
+  
+
+}
+.info-center h1{
+    font-size: 40px;
+    line-height: 48px;
+    color: #36454F;
+
+
+}.info-center h1 .s-1{
+    opacity: 52%;
+}
+.bottom-left-info{
+    position: absolute;
+    top: 700px;
+    padding-left: 100px;
+}
+.bottom-left-info h3{
+    color: #36454F;
+    opacity: 52%;
+
+}
+.center-bottom-page h3{
+    position: absolute;
+    top: 700px;
+    left: 47vw;
+    color: #36454F;
+
+}
+.center-bottom-page i{
+    position: absolute;
+    top: 750px;
+    left: 49vw;
+    color: #36454F;
+}
+.projects{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 1000px;
+   
+}
+.header{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    width: 80%;
+    color: #36454F;
+}
+.left-header{
+    padding-left: 80px;
+    left: 70px;
+    position: absolute;
+}
+.right-header h4{
+    left: 1390px;
+    position: absolute;
+    color: #36454F;
+    opacity: 52%;
+    width: 100px;
+}
+.line-1{
+    color: #36454F;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 1000px;
+}
+#text{
+    position: absolute;
+    left: 1390px;
+    top: 500px;
+    font-size: 16px;
+    height: 160px;
+    color: #36454F;
+    padding-right: 25px;
+    animation: animate 5s linear infinite;
+
+   
+}
+@keyframes animate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+span{
+    position: absolute;
+    transform-origin: 0 80px;
+}
+.first-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 200px;
+}
+.second-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 300px;
+}
+.third-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 400px;
+}
+.fourth-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 500px;
+}
+.fifth-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 600px;
+}
+.sixth-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 700px;
+}
+.seventh-line{
+    width: 80%;
+    height: 2px;
+    border: 0 none;
+    left: 150px;
+    background-color: #36454F;
+    position: absolute;
+    top: 800px;
+}
+.first-project a{
+    position: absolute;
+    left: 150px;
+    top: 207px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+
+.first-project a:hover{
+    color: orangered;
+    transform-style: smooth;
+    transition: all .3s ease-in-out;
+}
+.second-project a{
+    position: absolute;
+    left: 150px;
+    top: 307px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+.second-project a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.third-project a{
+    position: absolute;
+    left: 150px;
+    top: 407px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+.third-project a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.fourth-project a{
+    position: absolute;
+    left: 150px;
+    top: 507px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+.fourth-project a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.fifth-project a{
+    position: absolute;
+    left: 150px;
+    top: 607px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+.fifth-project a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.sixth-project a{
+    position: absolute;
+    left: 150px;
+    top: 707px;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 72px;
+    font-family: 'Bebas Neue';
+    
+}
+.sixth-project a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.myself-about{
+    position: absolute;
+    top: 1500px;
+}
+
+.small-job-1{
+position: absolute;
+top: 242px;
+left: 800px;
+color: #36454F ;
+opacity: 53%;
+}
+.about-1{
+    position: absolute;
+    top: 232px;
+    left: 1200px;
+    font-size: 30px;
+    color: #36454F;
+}
+.small-job-2{
+    position: absolute;
+top: 322px;
+left: 800px;
+color: #36454F ;
+opacity: 53%;
+}
+.about-2{
+    position: absolute;
+    top: 334px;
+    left: 1135px;
+    font-size: 30px;
+    color: #36454F;
+}
+.small-job-3{
+    position: absolute;
+    top: 442px;
+    left: 800px;
+    color: #36454F ;
+    opacity: 52%;
+}
+.small-job-4{
+    position: absolute;
+    top: 542px;
+    left: 800px;
+    color: #36454F ;
+    opacity: 52%;
+}
+.small-job-5{
+    position: absolute;
+    top: 642px;
+    left: 800px;
+    color: #36454F ;
+    opacity: 52%;
+}
+.about-5{
+    position: absolute;
+    top: 637px;
+    left: 1120px;
+    color: #36454F ;
+    font-size: 30px;
+}
+.small-job-6{
+    position: absolute;
+    top: 742px;
+    left: 800px;
+    color: #36454F ;
+    opacity: 52%;
+}
+.about-6{
+    position: absolute;
+    top: 737px;
+    left: 1120px;
+    color: #36454F ;
+    font-size: 30px;
+}
+.footer-header{
+    position: absolute;
+    color: #36454F;
+    font-size: 30px;
+    left: 300px;
+    top: 1200px;
+    width:100vw,
+}
+.footer-header h2{
+    width:100vw;
+}
+.contact-me{
+    position: absolute;
+    color: #36454F;
+    font-size: 60px;
+    padding-left: 150px;
+    top: 22.5em;
+    width: 1000px;
+    
+}
+.contact-me h1 a{
+    color: #36454F;
+    text-decoration: none;
+}
+.contact-me h1 a:hover{
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+.email-adress{
+    position: absolute;
+    top: 1650px;
+    left: 1000px;
+}
+.email-adress h3{
+    color: #36454F;
+    font-size: 30px;
+    
+}
+.footer{
+    position: absolute;
+    top: 1800px;
+    left: 140px;
+    width: 100vw;
+    padding-bottom: 100px;
+   
+}
+.footer a{
+    text-decoration: none;
+    color: #36454F;
+    background-color: transparent;
+}
+.twitter{
+    position: absolute;
+    left: -5px;
+}
+.github{
+    position: absolute;
+    left: 300px;
+}
+.instagram{
+    position: absolute;
+    left: 150px;
+}
+.right-footer{
+    position: absolute;
+    left: 55%;
+
+}
+.right-footer h3{
+    color: #36454F;
+    opacity: 53%;
+    font-size: 30px;
+}
+.fa-paper-plane{
+    position: relative;
+    left: 9.5em;
+    top:-7rem;
+    
+}
+@media(max-width: 700px){
+    nav{
+        width: 100%;
+        display: flex;
+    }
+    .left-side{
+        font-size: 24px;
+    }
+    .nav{
+        position: absolute;
+        left: 650px;
+        
+    }
+    .center-page{
+        left: 450px;
+        position: absolute;
+        width: 300px;
+    }
+    .info-center h1{
+        width: 169vw;
+        font-size: 24px;
+        
+    }
+   
+}
+.interest{
+    padding: 20px;
+    top: 1900px;
+    position: absolute;
+
+}
+.interets h2{
+    position: relative;
+    left: 125px;
+    top: 100px;
+    color: #36454F;
+    opacity: 53%;
+}
+.interets h4{
+    position: relative;
+    left: 125px;
+    top: 150px;
+    line-height: 32.4px;
+    letter-spacing: 0.1rem;
+    color: #36454F;
+    font-size: 24px;
+}
+.tech{
+    top: 500px;
+    position: absolute;
+    left: 900px;
+    width: 400px;
+
+}
+.tech h2{
+    color: #36454F;
+    opacity: 53%;
+
+}
+.tech h4{
+    padding-top: 50px;
+    line-height: 32px;
+    color: #36454F;
+    font-size: 24px;
+}
+
+
+
+
