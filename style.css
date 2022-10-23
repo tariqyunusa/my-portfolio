@@ -456,31 +456,7 @@ opacity: 53%;
     top:-7rem;
     
 }
-@media(max-width: 700px){
-    nav{
-        width: 100%;
-        display: flex;
-    }
-    .left-side{
-        font-size: 24px;
-    }
-    .nav{
-        position: absolute;
-        left: 650px;
-        
-    }
-    .center-page{
-        left: 450px;
-        position: absolute;
-        width: 300px;
-    }
-    .info-center h1{
-        width: 169vw;
-        font-size: 24px;
-        
-    }
-   
-}
+
 .interest{
     padding: 20px;
     top: 1900px;
@@ -521,6 +497,87 @@ opacity: 53%;
     color: #36454F;
     font-size: 24px;
 }
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .homepage{
+        height: 100vh;
+        width: 100vw;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+    .left-side{
+        width: 200px;
+        padding-left: 20px;
+    }
+    .lhs{
+        position: relative;
+        left: -20px;
+    }
+    .center-page{
+        position: relative;
+        left: 64px;
+    }
+    .nav{
+        position: relative;
+        left: -66px;
+    }
+    .info-center{
+        position: relative;
+        top: 160px;
+        left: -20px;
+        max-width: 543px ;
+    }
+    .info-center h1{
+        font-size: 24px;
+        left: -20px;
+        line-height: 30px;
+    }
+    .bottom-left-info{
+        position: relative;
+        top: 360px;
+        width: 50px;
+    }
+    .center-bottom-page{
+        display: none;
+        position: absolute;
+        top: -155px;
+    }
+    #text{
+        position: absolute;
+        left: 585px;
+        top: 456px;
+    }
+    .projects{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 746px;
+    }
+    .header{
+        width: 100vw;
+        height: 100px;
+    }
+    .left-header{
+        position: absolute;
+        left: -4px;
+    }
+    .right-header h4{
+        position: absolute;
+        left: 617px;
+    }
+    
+    .first-line{
+        position: relative;
+        top: 167px;
+        left: -20px;
+        right: 20px;
+    }
+    
+}
+
 
 
 
