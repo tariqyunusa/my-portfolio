@@ -154,6 +154,7 @@ span{
     transform-origin: 0 80px;
 }
 .first-line{
+    margin: 0;
     width: 80%;
     height: 2px;
     border: 0 none;
@@ -166,7 +167,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 300px;
@@ -175,7 +176,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 400px;
@@ -184,7 +185,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 500px;
@@ -193,7 +194,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 600px;
@@ -202,7 +203,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 700px;
@@ -211,7 +212,7 @@ span{
     width: 80%;
     height: 2px;
     border: 0 none;
-    left: 150px;
+    left: 93px;
     background-color: #36454F;
     position: absolute;
     top: 800px;
@@ -461,6 +462,8 @@ opacity: 53%;
     padding: 20px;
     top: 1900px;
     position: absolute;
+    height: 100vh;
+    width: 100vw;
 
 }
 .interets h2{
@@ -500,6 +503,9 @@ opacity: 53%;
 /* For Tablet View */
 @media screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
+    .no-scroll{
+        overflow-x: hidden;
+    }
     .homepage{
         height: 100vh;
         width: 100vw;
@@ -568,15 +574,130 @@ and (max-device-width: 1024px) {
         position: absolute;
         left: 617px;
     }
-    
-    .first-line{
-        position: relative;
-        top: 167px;
-        left: -20px;
-        right: 20px;
+    .small-job-1{
+        display: none;
     }
-    
+    .about-1{
+        display: none;
+    }
+    .small-job-2{
+        display: none;
+    }
+    .about-2{
+        display: none;
+    }
+    .small-job-3{
+        display: none;
+    }
+    .about-3{
+        display: none;
+    }
+    .small-job-4{
+        display: none;
+    }
+    .about-4{
+        display: none;
+    }
+    .small-job-5{
+        display: none;
+    }
+    .about-5{
+        display: none;
+    }
+    .small-job-6{
+        display: none;
+    }
+    .about-6{
+        display: none;
+    }
+    .first-project h3{
+        background-color: transparent;
+    }
+    .project-showcase{
+        width: 100vw;
+        height: 70vh;
+        top: 30px;
+        position: absolute;
+        left: -75px;
+    }
+    .interest{
+        position: absolute;
+        left: -69px;
+    }
+    .interets h2{
+        font-size: 24px;
+    }
+    .interets h4{
+        font-size: 18px;
+    }
+    .tech{
+        position: absolute;
+        left: 428px;
+        top: 399px;
+    }
+    .tech h2{
+        font-size: 24px;
+    }
+    .tech h4{
+        font-size: 18px;
+        position: absolute;
+        top: 9px;
+        background-color: transparent;
+    }
+    .footer-header{
+        position: absolute;
+        top: 1073px;
+        left: 66px;
+    }
+    .footer-header h2{
+        font-size: 28px;
+    }
+    .contact-me{
+        position: absolute;
+        top: 1213px;
+        left: -78px;
+    }
+    .contact-me h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .fa-paper-plane{
+        position: absolute;
+        left: 596px;
+        top: 49px;
+    }
+    .email-adress{
+        display: none;
+    }
+    .footer{
+        display: flex;
+    }
+    .twitter{
+        position: absolute;
+        top: -227px;
+        left: -70px;
+    }
+    .instagram{
+        position: absolute;
+        top: -227px;
+        left: 63px;
+    }
+    .github{
+        position: absolute;
+        top: -227px;
+        left: 198px;
+    }
+    .right-footer{
+        position: absolute;
+        top: -214px;
+        left: 359px;
+    }
+    .right-footer h3{
+        font-size: 18px;
+    }
 }
+    
+
 
 
 
